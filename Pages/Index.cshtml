@@ -8,3 +8,16 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+Para corrigir e adaptar o código conforme sua intenção, é importante notar que a sintaxe da expressão ternária que você deseja usar precisa ser ajustada para se adequar às regras do C#. Além disso, em blocos de código Razor, como @functions, o método deve ser definido de forma um pouco diferente para trabalhar corretamente dentro do contexto de uma página Razor. Aqui está como você pode definir a função de saudação corretamente:
+
+razor
+
+@functions {
+    public string Saudacao()
+    {
+        var horaAtual = DateTime.Now.Hour;
+        var periodo = horaAtual <= 12 ? "dia" : horaAtual <= 18 ? "tarde" : "noite";
+        return periodo == "dia" ? "Bom dia!" : $"Boa {periodo}!";
+    }
+}
+<h1> @Saudacao() </h1>

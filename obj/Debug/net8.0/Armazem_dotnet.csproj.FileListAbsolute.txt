@@ -28,3 +28,4 @@ C:\Users\jeanm\source\repos\Armazem_dotnet\Armazem_dotnet\obj\Debug\net8.0\refin
 C:\Users\jeanm\source\repos\Armazem_dotnet\Armazem_dotnet\obj\Debug\net8.0\Armazem_dotnet.pdb
 C:\Users\jeanm\source\repos\Armazem_dotnet\Armazem_dotnet\obj\Debug\net8.0\Armazem_dotnet.genruntimeconfig.cache
 C:\Users\jeanm\source\repos\Armazem_dotnet\Armazem_dotnet\obj\Debug\net8.0\ref\Armazem_dotnet.dll
+C:\Users\jeanm\source\repos\Armazem_dotnet\Armazem_dotnet\obj\Debug\net8.0\Armazem_dotnet.sourcelink.json
