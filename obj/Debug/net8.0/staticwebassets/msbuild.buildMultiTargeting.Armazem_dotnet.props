@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Armazem_dotnet.props" />
+</Project>
